@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration from</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: yellow;
+        }
+
+        * {
+            text-decoration: whitesmoke;
+        }
+
+        @media only screen and (max-width: 768px) {
+
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h2 style="color:red;">Registration form</h2>
+        <form action="welcome.html">
+            <label>Full name:</label>
+            <input type="text" name="full name" placeholder="Full name" class="form-control" /><br><br>
+            <label>Father's name:</label>
+            <input type="text" name="father" placeholder="fathers name:" class="form-control" /><br><br>
+            <label>Mobile number:</label>
+            <input type="text" name="mobile" maxlength="10/" placeholder="Mobile number" class="form-control" /><br><br>
+            <label>gender:</label><br><br>
+            Male:
+            <input type="radio" name="gender" placeholder="Gender" class="form-control" /><br><br>
+            Female:
+            <input type="radio" name="gender" placeholder="gender" class="form-control" /><br><br>
+            Address: <textarea class="form-control">
+enter your addres:
+</textarea><br><br>
+            <label>Photos:</label>
+            <input type="file" name="photo" placeholder="upload your photos" class="form-control" required /><br><br>
+            <label>Signature:</label>
+            <input type="file" name="signature" placeholder="upload your signature" class="form-control"
+                required /><br><br>
+            <label>Adhar number:</label>
+            <input type="text" name="" placeholder="upload your adhar number:" class="form-control" maxlength="12/"
+                required /><br><br>
+            <label>Choose your country:</label>
+            <select type="country" class="form-control" required /><br><br>
+            <option value="india">india</option>
+            <option value="uk">uk</option>
+
+            <option value="australia">australia</option>
+
+            <option value="canada
+    ">canada</option>
+
+            <option value="africa">africa</option>
+
+            <option value="china">china</option>
+
+
+            </select>
+            <br><br>
+            <label for="Qualification">Qualification</label><br><br>
+            10th
+            <input type="checkbox" name="10th" /><br><br>
+
+            12th
+            <input type="checkbox" name="12th" /><br><br>
+            Graduation
+            <input type="checkbox" name="Graduation" /><br><br>
+            PG:
+            <select>
+                <option value="mba">mba</option>
+                <option value="mca">mca</option>
+                <option value="ma">ma</option>
+                <option value="msc">msc</option>
+                <option value="m.tech">m.tech</option>
+
+
+            </select>
+            <br><br>
+            <a href="welcome.html"><button>submit</button></a>
+
+            <button value="cancel" class="btn btn-primary" style="color:red;">Reset</button><br><br>
+
+
+        </form>
+    </center>
+
+</body>
+
+</html>
